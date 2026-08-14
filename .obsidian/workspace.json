@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/How This Documentation Works.md",
+                "file": "Admin/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How This Documentation Works"
+              "title": "README"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4a0d9452aa5d2e45",
@@ -190,18 +191,41 @@
   },
   "active": "44285a2d837dade8",
   "lastOpenFiles": [
-    "README.md",
     "Documentation/How This Documentation Works.md",
-    "Documentation/README.md",
+    "Infrastructure/docs",
+    "Admin/docs",
+    "Backend/docs",
+    "Application/docs",
+    "Website/docs",
+    "Infrastructure/README.md",
+    "Data/README.md",
+    "Admin/README.md",
+    "Backend/README.md",
+    "Application/README.md",
+    "Website/README.md",
+    "Documentation/99 - Templates/Business.md",
+    "Documentation/99 - Templates/Weekly Review.md",
+    "Documentation/99 - Templates/Meeting.md",
+    "Documentation/99 - Templates/Experiment.md",
+    "Documentation/99 - Templates/Research.md",
+    "Documentation/99 - Templates/Decision.md",
+    "Documentation/07 - Decisions/Business/DEC-0001 - Start With Jwala Nagar.md",
+    "Documentation/07 - Decisions/Product/DEC-0002 - Discovery First.md",
+    "Documentation/07 - Decisions/Decision Log.md",
+    "Documentation/02 - Product/Product Roadmap.md",
+    "Documentation/02 - Product/Feature Inventory.md",
+    "Documentation/02 - Product/MVP Scope.md",
+    "Documentation/02 - Product/Product Overview.md",
+    "Documentation/01 - Strategy/Target Businesses.md",
+    "Documentation/01 - Strategy/Target Users.md",
+    "Documentation/01 - Strategy/Geographic Strategy.md",
+    "Documentation/01 - Strategy/Product Thesis.md",
+    "Documentation/01 - Strategy/Problem Statement.md",
+    "Documentation/01 - Strategy/Mission.md",
     "Infrastructure/monitoring",
     "Infrastructure/environments",
     "Infrastructure/deployment",
     "Infrastructure",
-    "Data/scripts",
-    "Data/raw",
-    "Data/processed",
-    "Data/imports",
-    "Data/exports",
-    "Data"
+    "Data/scripts"
   ]
 }
