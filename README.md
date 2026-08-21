@@ -1,35 +1,77 @@
 # DelhiSewa
 
-DelhiSewa is an early-stage hyperlocal discovery platform for businesses, shops, professionals, services, and useful places.
+DelhiSewa is a local services platform focused on connecting people with trusted local professionals, businesses, services, shops, and places.
 
-The project is starting with:
+## Repository Purpose
 
-**Jwala Nagar, Shahdara, Delhi 110032**
+This repository is the central DelhiSewa documentation and organizational repository.
 
-The initial goal is simple:
+It records the product, business, research, operational, strategic, and historical knowledge of DelhiSewa.
 
-> Help local residents discover useful local businesses, services, professionals, shops, and places through one organized digital platform.
+## What Belongs Here
 
-The project will start small, learn from real users and local businesses, and expand geographically and functionally only when there is evidence that the product is useful.
+This repository contains:
 
-## Repository Structure
+- Strategy
+- Product direction
+- Product requirements
+- User research
+- Market research
+- Business research
+- Operations
+- Growth
+- Analytics
+- Organizational decisions
+- Launch planning
+- Meetings
+- Reviews
+- Legal and compliance documentation
+- Data definitions and policies
+- Historical records
 
-| Directory | Purpose |
-|---|---|
-| `Documentation/` | Product, business, strategy, research, decisions, operations, and project history |
-| `Website/` | Public website implementation |
-| `Application/` | Application implementation |
-| `Backend/` | Backend and API implementation |
-| `Admin/` | Internal/admin application |
-| `Data/` | Operational data, imports, exports, and data tooling |
-| `Infrastructure/` | Deployment, environments, monitoring, and infrastructure |
+## What Does Not Belong Here
 
-## Important Principle
+Platform-specific implementation details should not be maintained here.
 
-Documentation describes **what DelhiSewa is, why it exists, what we learn, and what we decide**.
+Examples include:
 
-Implementation repositories describe **how each system is built**.
+- Next.js implementation
+- React components
+- Backend implementation
+- API implementation
+- Authentication implementation
+- CI configuration
+- Deployment configuration
+- Platform-specific security implementation
+- Platform-specific testing configuration
 
-Implementation-specific technical documentation should live with the implementation it belongs to.
+Those belong to their respective platform repositories.
 
-See `Documentation/How This Documentation Works.md`.
+## Platform Repositories
+
+DelhiSewa platforms are maintained as separate repositories.
+
+Platform repositories follow the naming convention:
+
+`delhi_sewa_<platform>`
+
+Examples:
+
+- `delhi_sewa_web`
+- `delhi_sewa_application`
+- `delhi_sewa_backend`
+- `delhi_sewa_admin`
+- `delhi_sewa_data`
+- `delhi_sewa_infrastructure`
+
+Each platform repository maintains its own technical documentation.
+
+## Documentation Principle
+
+This repository describes:
+
+> What DelhiSewa is, why it exists, what we learn, what we decide, and how the organization evolves.
+
+Platform repositories describe:
+
+> How each platform is implemented, secured, tested, deployed, and maintained.

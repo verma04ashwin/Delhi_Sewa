@@ -1,34 +1,38 @@
 # DelhiSewa Documentation
 
-This is the central knowledge base and institutional memory of DelhiSewa.
+This directory contains the central documentation for DelhiSewa.
 
-It documents the evolution of the product, business, research, operations, decisions, experiments, metrics, launches, and lessons learned.
+## Purpose
 
-## Documentation Principles
+The central documentation records the organization's product, business, research, operational, strategic, and historical knowledge.
 
-1. Document important decisions.
-2. Record assumptions separately from facts.
-3. Link research to the decisions it influences.
-4. Record experiments and their outcomes.
-5. Keep historical information rather than rewriting history.
-6. Prefer evidence over assumptions.
-7. Keep implementation-specific details inside their respective project directories.
-8. Keep this documentation useful to future versions of the team.
+## Documentation Categories
 
-## Core Areas
-
-- `00 - Home` — Current project state and navigation
-- `01 - Strategy` — Why DelhiSewa exists and where it is going
-- `02 - Product` — Product definition and product planning
-- `03 - Research` — Users, businesses, market, competitors, geography
-- `04 - Operations` — How the business operates
-- `05 - Growth` — Acquisition and growth
-- `06 - Analytics` — Metrics and measurement
-- `07 - Decisions` — Important decisions and their reasoning
-- `08 - Launch` — Launch planning and history
-- `09 - Meetings` — Important meetings and conversations
-- `10 - Reviews` — Weekly, monthly, quarterly, and annual reviews
-- `11 - Legal & Compliance` — Legal and policy documentation
-- `12 - Data` — Data definitions, models, and policies
-- `13 - Archive` — Historical material no longer active
+- `00 - Home` — Current state and orientation
+- `01 - Strategy` — Mission, vision, strategy, and product thesis
+- `02 - Product` — Product requirements, features, journeys, and UX
+- `03 - Research` — Research and evidence
+- `04 - Operations` — Operational processes and procedures
+- `05 - Growth` — Acquisition, experiments, marketing, and partnerships
+- `06 - Analytics` — Metrics and performance reviews
+- `07 - Decisions` — Important organizational and product decisions
+- `08 - Launch` — Launch planning and execution
+- `09 - Meetings` — Important meeting records
+- `10 - Reviews` — Periodic reviews
+- `11 - Legal & Compliance` — Legal and compliance documentation
+- `12 - Data` — Data definitions and policies
+- `13 - Archive` — Historical material
 - `99 - Templates` — Reusable documentation templates
+
+## Boundary With Platform Repositories
+
+Central documentation should not become a technical implementation wiki.
+
+Platform-specific technical documentation belongs in the corresponding platform repository.
+
+For example:
+
+`delhi_sewa_web/Documentation/`
+
+contains documentation about the implementation of the web platform.
+

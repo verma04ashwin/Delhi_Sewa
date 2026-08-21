@@ -2,71 +2,70 @@
 
 ## Purpose
 
-This documentation system exists to preserve the institutional memory of DelhiSewa.
+DelhiSewa documentation is divided between central organizational documentation and platform-specific technical documentation.
 
-The goal is that future us should be able to understand:
+## Central Documentation
 
-- What we were trying to accomplish
-- What we believed
-- What we actually learned
-- What we built
-- Why we made important decisions
-- What worked
-- What failed
-- What changed
-- What we should do next
+The central `Delhi_Sewa` repository records:
 
-## Documentation vs Implementation
+- What DelhiSewa is
+- Why it exists
+- What we believe
+- What we have learned
+- Product requirements
+- Business decisions
+- Operational knowledge
+- Growth knowledge
+- Organizational history
 
-The central `Documentation/` directory contains product and organizational knowledge.
+## Platform Documentation
 
-Implementation-specific technical details belong to their respective projects:
-
-- `Website/`
-- `Application/`
-- `Backend/`
-- `Admin/`
-- `Infrastructure/`
+Each independently maintained platform repository contains its own technical documentation.
 
 For example:
 
-> Why should DelhiSewa have a public website?
+`delhi_sewa_web/Documentation/`
 
-belongs in:
+contains:
 
-`Documentation/02 - Product/`
+- Architecture
+- Security
+- Development
+- Testing
+- Deployment
+- Performance
+- Technical decisions
+- Platform-specific operations
 
-while:
+## Documentation Boundary
 
-> How is routing implemented in the website?
+A useful rule is:
 
-belongs in:
+> If the information remains meaningful even when the implementation technology changes, it probably belongs in central documentation.
 
-`Website/docs/`
+> If the information exists because of how a particular platform is implemented, it belongs in that platform's documentation.
 
-## Evidence Chain
+## Decisions
 
-Important product development should ideally follow:
+Central decisions document organizational, product, business, or cross-platform reasoning.
 
-Assumption → Research → Experiment → Evidence → Decision → Implementation → Result → Learning
+Platform decisions document technical implementation choices.
 
-## Historical Principle
+## Documentation Quality
 
-Do not rewrite old decisions simply because our thinking changed.
+Documentation should:
 
-Instead:
+- Record important knowledge
+- Explain decisions
+- Avoid unnecessary duplication
+- Remain consistent with reality
+- Be updated when meaningful changes occur
+- Avoid documenting every trivial implementation detail
 
-1. Keep the original decision.
-2. Record what changed.
-3. Create a new decision if necessary.
-4. Link the old and new decisions.
+## Evolution
 
-This preserves the history of how DelhiSewa evolved.
+Documentation is not intended to be complete before development begins.
 
-## Documentation Rule
+The product and its documentation should evolve together.
 
-If future us might ask:
-
-> "Why did we do that?"
-
-document it.
+Build, learn, decide, and document important changes.
